@@ -1,7 +1,7 @@
-import fn from '../src';
+import Clip from '../src';
 
 describe('api.basic', () => {
-  test('normail single value case', () => {
-    expect(fn({ rel: true })).toBe(undefined);
+  test('read image', async () => {
+    await Clip.read();
   });
 });

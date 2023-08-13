@@ -51,5 +51,9 @@
       ],
       "@babel/preset-typescript"
     ]
+  },
+  "dependencies": {
+    "clipboard-files": "^2.0.0",
+    "clipboard-sys": "^1.2.1"
   }
 }
