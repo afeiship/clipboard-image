@@ -13,9 +13,12 @@ npm install @jswork/clipboard-image
 
 ## usage
 ```js
-import clipboardImage from '@jswork/clipboard-image';
+import ClipboardImage from '@jswork/clipboard-image';
 
-// usage goes here.
+// only testing on macos
+const buf = ClipboardImage.read();
+
+// <Buffer xxxx> OR null
 ```
 
 ## license
